@@ -4,6 +4,7 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Hero from "./components/hero";
 import HireMe from "./components/hireMe";
+import ChatWidget from "./components/ChatWidget";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <About />
         <Projects />
         <HireMe />
+        <ChatWidget />
       </main>
       <Contact />
     </div>
