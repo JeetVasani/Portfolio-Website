@@ -1,40 +1,3 @@
-/* @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --accent: #3b82f6; 
-  --accent-hover: #2563eb; 
-  --border-color: #e5e7eb; 
-  --muted-text: #6b7280; 
-}
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --accent: #3b82f6; /* bl
-    --accent-hover: #60a5fa;
-    --border-color: #1f2937;
-    --muted-text: #9ca3af; /
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-} */
 @import "tailwindcss";
 
 /* Light mode defaults */
@@ -76,3 +39,53 @@ body {
 html {
   scroll-behavior: smooth;
 }
+/* typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 22ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* typing + blinking cursor */
+.typing-effect {
+  width: 15ch;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+
+  animation:
+    typing 2s steps(35) forwards,
+    blink .6s step-end 2s 3,
+    hide-cursor 0s linear 3.8s forwards;
+}
+
+@keyframes hide-cursor {
+  to { border-right-color: transparent; }
+}
+
+/* main reveal animation */
+@keyframes appear {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.reveal-animate-main {
+  animation: appear 1s ease-out forwards;
+}
+
+
+.reveal-left-to-right {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
