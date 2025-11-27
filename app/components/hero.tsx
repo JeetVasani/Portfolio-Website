@@ -7,7 +7,7 @@ export default function Hero() {
       <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Jeet Vasani</h1>
 
       <h2 className="text-xl md:text-2xl text-[#A78BFA] mb-6">
-        Full-Stack Developer
+        Backend-Focused Full-Stack Dev
       </h2>
 
       <p className="text-base md:text-lg max-w-2xl text-gray-300 mb-10">
