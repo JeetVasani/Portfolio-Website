@@ -1,3 +1,5 @@
+# Personal Porfolio Website
+
 Built a fully responsive portfolio using TSX (React) and Tailwind CSS.
 
 Structured components cleanly using a modular TSX architecture.
@@ -12,4 +14,4 @@ Implemented mobile-first responsiveness and accessibility-friendly layouts.
 
 Optimized images, component rendering, and build size for performance.
 
-Deployed on services Netlify.
+Deployed on Netlify.
