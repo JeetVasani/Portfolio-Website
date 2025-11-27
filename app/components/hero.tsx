@@ -7,12 +7,12 @@ export default function Hero() {
       <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Jeet Vasani</h1>
 
       <h2 className="text-xl md:text-2xl text-[#A78BFA] mb-6">
-        AI Engineer & Full-Stack Developer
+        Full-Stack Developer
       </h2>
 
       <p className="text-base md:text-lg max-w-2xl text-gray-300 mb-10">
-        I build intelligent systems, automation tools, and high-performance MVPs
-        using Next.js, Python, and machine learning.
+       Third year B.Tech student specializing in AI&ML.<br></br>
+       I design and implement end-to-end software solutions with a strong focus on backend engineering, system reliability, and clean architecture.
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4">
