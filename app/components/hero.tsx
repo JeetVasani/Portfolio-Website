@@ -4,8 +4,7 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-[#0F0A1A] text-white"
     >
-      {/* <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Jeet Vasani</h1> */}
-      <h1 className="typing-effect text-white text-4xl font-bold">Jeet Vasani</h1>
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Jeet Vasani</h1>
 
       <h2 className="text-xl md:text-2xl text-[#A78BFA] mb-6">
         AI Engineer & Full-Stack Developer

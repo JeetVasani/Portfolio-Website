@@ -2,16 +2,16 @@ export default function AboutSkillsSection() {
   return (
     <section
       id="about"
-      className=" w-full bg-[#0F0A1A] text-white py-14 md:py-20 px-4 sm:px-6  justify-center"
+      className="w-full bg-[#0F0A1A] text-white py-14 md:py-20 px-4 sm:px-6 flex justify-center"
     >
-      <div className="reveal w-full sm:w-[90%] md:w-[85%] lg:w-[80%] max-w-6xl mx-auto">
+      <div className="w-full sm:w-[90%] md:w-[85%] lg:w-[80%] max-w-6xl mx-auto">
 
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
           About & Skills
         </h2>
 
         {/* CODE BLOCK */}
-        <div className="reveal bg-[#1A1328] rounded-xl border border-[#7C3AED40] p-4 sm:p-6 shadow-lg overflow-x-auto">
+        <div className="bg-[#1A1328] rounded-xl border border-[#7C3AED40] p-4 sm:p-6 shadow-lg overflow-x-auto">
           <pre className="font-mono text-xs sm:text-sm md:text-base leading-6 whitespace-pre-wrap min-w-full text-gray-200">
 
 {`class `}
