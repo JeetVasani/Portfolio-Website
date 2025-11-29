@@ -2,7 +2,7 @@
 
 /* Light mode defaults */
 :root {
-  --background: #ffffff;        /* dark-blue-950 */
+  /* --background: #ffffff;        /* dark-blue-950 */ */
   --foreground: #e0edfe;        /* gray-300 */
   --accent: #000000;            /* blue-700 */
   --accent-hover: #2563eb;      /* blue-600 */
