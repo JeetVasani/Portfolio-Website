@@ -21,7 +21,7 @@
 /* Dark mode when system prefers dark  */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b1120;       /* deeper dark-blue */
+    --background: #0F0A1A;       
     --foreground: #f1f5f9;       /* slate-100 */
     --accent: #1d4ed8;           /* blue-700 */
     --accent-hover: #3b82f6;     /* blue-500 */
