@@ -2,7 +2,7 @@
 
 /* Light mode defaults */
 :root {
-  /* --background: #ffffff;        /* dark-blue-950 */ */
+  --b0F0A1Aackground: #ffffff;        /* dark-blue-950 */
   --foreground: #e0edfe;        /* gray-300 */
   --accent: #000000;            /* blue-700 */
   --accent-hover: #2563eb;      /* blue-600 */
@@ -10,18 +10,10 @@
   --muted-text: #94a3b8;        /* slate-400 */
 }
 
-/* Register theme tokens for Tailwind */
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 /* Dark mode when system prefers dark  */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b1120;       /* deeper dark-blue */
+    --background: #0F0A1A;       /* deeper dark-blue */
     --foreground: #f1f5f9;       /* slate-100 */
     --accent: #1d4ed8;           /* blue-700 */
     --accent-hover: #3b82f6;     /* blue-500 */
